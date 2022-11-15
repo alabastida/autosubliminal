@@ -1,6 +1,7 @@
 # alabastida/autosubliminal
 
 This is my take on creating an image to run autosubliminal in a container. Please bear with me, it's my first image ever.
+Find it on https://hub.docker.com/repository/docker/alabastida/autosubliminal
 
 ### On your docker-compose.yml file you could configure the container as follows:
 
