@@ -5,5 +5,6 @@ WORKDIR /Auto-Subliminal
 ENV VIRTUAL_ENV=/Auto-Subliminal/.venv
 RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+CMD ["git","pull"]
 EXPOSE 8083
 CMD ["python","AutoSubliminal.py"]
